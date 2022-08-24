@@ -27,7 +27,7 @@ body {
 
 .container2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: auto;
     height: 200px;
     background-color: #1F2937;
@@ -72,13 +72,14 @@ body {
     height: 100px;
     width: 200px;
     background-color: grey;
-    color: white;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
 }
 
 .container2box2 p {
     color: black;
     font-size: xx-small;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
 }
 
@@ -90,9 +91,8 @@ body {
 
 .c3b1 {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .header {
@@ -114,7 +114,7 @@ body {
     height: 30px;
     width: 30px;
     padding: 20px;
-    border: 2px solid #1F2937;
+    border: 2px solid #4072b7;
     border-radius: 10px;
 }
 
@@ -125,13 +125,85 @@ body {
 }
 
 .container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: auto;
     height: 200px;
     background-color: grey;
 }
 
+.quote{
+    width: 200px;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.thor{
+    width: 200px;
+    align-self: center;
+    text-align: right;
+    font-size: x-small;
+    font-weight: bolder;
+}
+
 .container5 {
+    display: flex;
+    justify-content: space-around;
     width: auto;
     height: 200px;
     background-color: white;
+    color: white;
+}
+
+.rectangleBot {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    margin: 50px;
+}
+
+.rectText{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.botText1{
+    font-weight: 900;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.botText2{
+    font-weight: lighter;
+    font-size: x-small;
+    margin-left: 1px;
+}
+
+.button2{
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.pageBottom{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    width: auto;
+    background-color: #1F2937;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    font-size: xx-small;
+    font-weight: 300;
+    margin-top: 15px;
 }
