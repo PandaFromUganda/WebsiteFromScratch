@@ -1,5 +1,6 @@
 * {
     font-family: "Roboto", sans-serif;
+    /*border: solid red;*/
 }
 
 body {
@@ -36,14 +37,15 @@ body {
 .container2box1 {
     display: flex;
     flex-direction: column;
+    width: 200px;
     margin-left: 65px;
     margin-top: 40px;
+    margin-right: 10px;
 
 }
 
 .container2box1 div {
     margin-bottom: 5px;
-    width: 50%;
 }
 
 .bigFont {
